@@ -1,6 +1,6 @@
-keys = open("keys").read().splitlines()
-
 import openai
+
+keys = open("keys").read().splitlines()
 
 it = 0
 openai.api_key = ''  # Replace with your OpenAI API key

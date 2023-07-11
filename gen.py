@@ -9,5 +9,5 @@ for key in range(1, 10001):
 
   generated_string = prefix + encoded_string.replace("=", "")
   print(f"Key {key} : {generated_string}")
-  with open("keys", "a") as f:
+  with open("keys_1", "a") as f:
     f.write(generated_string + "\n")
